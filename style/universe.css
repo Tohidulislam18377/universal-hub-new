@@ -1,0 +1,51 @@
+.main-section {
+    margin-left: px;
+    margin-bottom: 20px;
+}
+
+.btn-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section {
+    display: flex;
+    column-gap: 30px;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.feature-section {
+    display: flex;
+    column-gap: 30px;
+}
+
+.grid-section-size {
+    width: 40%;
+    background-color: rgba(235, 87, 87, 0.05);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-plan {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.modal-price {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.img{
+    height: 100px;
+    width: 100px;
+    display: block;
+}
